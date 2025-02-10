@@ -5,9 +5,11 @@
     background-position-x: right;
     background-position-y: center;
     background-repeat: repeat-x;
+    padding: 0;    
 }
+
 .fej img{
-    height: 25%;
+    height: 125px;
 }
 
 .tartalom{
@@ -45,3 +47,9 @@ h3{
 #tipusKepek li:hover{
     padding-left: 10px;
 }
+
+#listaKepek li:hover{
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+}
+
